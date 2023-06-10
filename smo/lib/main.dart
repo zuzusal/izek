@@ -67,7 +67,7 @@ class HomePage extends StatelessWidget {
     {
       'icon': Icons.event,
       'title': 'Etkinlikler',
-      'page': EtkinliklerPage(etkinlikler: [])
+      'page': const EtkinliklerPage(etkinlikler: [])
     },
     {
       'icon': Icons.calculate,
